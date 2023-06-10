@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<title>WEBCHAT SITE 2 </title>
+</head>
+<body>
+    <header>
+        <h1> Money Map Press</h1>
+        
+        {% block content %}
+        <h2>Index</h2>
+        {% endblock %}
+        <nav>
+            <ul>
+                <li><a href="{% url 'index' %}" >Home</a></li>
+                <li><a href="{% url 'page' %}" >Page</a></li>
+                <li><a href="{% url 'page1' %}" >Page1</a></li>
+                <li><a href="{% url 'page2' %}">Page2</a></li>
+            </ul>    
+        </nav>
+    </header>
+
+    <main>
+        <div id="chatbox">
+            chatbox
+        </div>
+    </main>
+    
+    <footer>
+        <h2>footer</h2>
+    </footer>
+    
+<script src="{% static 'js/mainjs.js' %}"></script>
+</body>
+</html>

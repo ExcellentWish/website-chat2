@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    
+    
+  }
+
+
+  h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+li{
+  display: inline;;
+  list-style-type: none;
+}
+
+#chatbox{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+  border-top: 15px solid green;
+}
