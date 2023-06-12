@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '8000-excellentwi-websitechat-twcuvaxl880.ws-eu99.gitpod.io']
+ALLOWED_HOSTS = ['ndwebchat1.herokuapp.com', '8000-excellentwi-websitechat-twcuvaxl880.ws-eu99.gitpod.io']
 
 
 # Application definition
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'web_chat1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-if 'DEVELOPMENT' = 'True':
+if 'DEVELOPMENT' == 'True':
 
     DATABASES = {
         'default': {
