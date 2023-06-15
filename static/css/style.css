@@ -5,7 +5,11 @@ html {
 
 body {
   margin: 0 auto;
-  background-color: #222;
+}
+
+li{
+  display: inline;;
+  list-style-type: none;
 }
 
 
