@@ -83,8 +83,10 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'web_chat1.wsgi.application'
 
+ASGI_APPLICATION = 'web_chat1.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
